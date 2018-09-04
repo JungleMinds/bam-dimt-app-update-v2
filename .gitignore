@@ -1,0 +1,7 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+flow-typed/
+yarn-error.log
+.idea
+.env

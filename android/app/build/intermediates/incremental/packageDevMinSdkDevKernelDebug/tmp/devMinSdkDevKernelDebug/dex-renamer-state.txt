@@ -1,0 +1,7 @@
+#Mon Sep 03 16:56:37 CEST 2018
+base.0=/Users/arjen.de.vries/webroot/bam-dimt-app-update2/android/app/build/intermediates/transforms/dexMerger/devMinSdkDevKernel/debug/12
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/arjen.de.vries/webroot/bam-dimt-app-update2/android/app/build/intermediates/transforms/dexMerger/devMinSdkDevKernel/debug/11

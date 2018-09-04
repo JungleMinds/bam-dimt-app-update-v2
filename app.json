@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "bam-dimt-app-update2",
+    "description": "This project is really great.",
+    "slug": "bam-dimt-app-update2",
+    "privacy": "public",
+    "sdkVersion": "29.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.homestudios.bam",
+      "publishBundlePath": "ios/bam-dimt-app-update2/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/bam-dimt-app-update2/Supporting/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.7.0-sdk29.0.0-de70611d-e42d-4d50-a6a5-2d8eabf6ed72.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.7.2-sdk29.0.0-54e8f46d-36a6-460f-b0f9-e1043f28b215.tar.gz"
+    },
+    "scheme": "expb7eb83412ffc4f958be9d1e23c37a92e",
+    "android": {
+      "package": "com.homestudios.bam",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
+  }
+}

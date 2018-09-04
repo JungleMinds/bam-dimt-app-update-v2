@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype",
+    "react",
+    "react-native",
+    "jest"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "globals": {
+    "__DEV__": true
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": false
+    }
+  },
+  "env": {
+    "react-native/react-native": true
+  }
+}
