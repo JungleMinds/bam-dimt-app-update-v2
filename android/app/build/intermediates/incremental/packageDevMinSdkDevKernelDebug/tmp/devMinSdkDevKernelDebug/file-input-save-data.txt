@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Sep 03 16:56:39 CEST 2018
+#Mon Nov 19 14:09:02 CET 2018
 124.path=lib/x86/libyoga_abi25_0_0.so
 60.set=NATIVE_RESOURCE
 52.set=NATIVE_RESOURCE

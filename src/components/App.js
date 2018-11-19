@@ -16,7 +16,7 @@ import DockScreen from './DockScreen'
 Sentry.enableInExpoDevelopment = false
 
 // Hot reloading doesn't work that well with Sentry, uncomment when to production
-Sentry.config('https://246f1ded205a4f36b675840b2f4cfa89@sentry.io/1196069').install()
+// Sentry.config('https://246f1ded205a4f36b675840b2f4cfa89@sentry.io/1196069').install()
 
 const { persistor, store } = createStore()
 
@@ -29,7 +29,7 @@ export default class App extends Component<null, AppState> {
     loaded: false
   }
 
-  componentDidMount () {
+  componentDidMount() {
     // the tablet is held upside-down
     ScreenOrientation.allow(ScreenOrientation.Orientation.PORTRAIT_DOWN)
     this.loadAssetsAndUpdate()
@@ -43,10 +43,10 @@ export default class App extends Component<null, AppState> {
     })
 
     this.setState({ loaded: true })
-    store.dispatch({type: 'LOGOUT'})
+    store.dispatch({ type: 'LOGOUT' })
   }
 
-  render () {
+  render() {
     return (
       <Provider store={store}>
         <PersistGate persistor={persistor} loading={<Text>Loading</Text>}>

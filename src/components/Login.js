@@ -79,7 +79,6 @@ class Login extends React.Component<LoginProps, LoginState> {
           })
         } else {
           this.setState(() => ({
-            password: '',
             hasError: true,
             isLoading: false
           }))
